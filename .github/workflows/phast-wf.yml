@@ -1,0 +1,12 @@
+name: mera workflow
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello Baby"
+      - name: Print Tata
+        run: echo "chalo niklo"
+       
+        
