@@ -5,7 +5,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: get github metadata
-          run: echo ${{ toJSON(github) }}
+          run: echo "${{ toJSON(github) }}"
         - name: output information
           run: echo "Outputting information..."
          
